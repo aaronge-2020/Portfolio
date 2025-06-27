@@ -1,13 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aaron Ge - AI & Computational Medicine Researcher</title>
-    <meta name="description" content="Aaron Ge - Medical Student and AI Researcher specializing in computational medicine, cancer genomics, and healthcare equity.">
+    
+    <!-- SEO Meta Tags -->
+    <title>Aaron Ge - AI & Computational Medicine Researcher | Medical Student Portfolio</title>
+    <meta name="description" content="Aaron Ge is a medical student and AI researcher at University of Maryland School of Medicine, specializing in computational medicine, genomics, and privacy-preserving AI. Creator of FastImpute, TMA-Grid, and mSigSDK.">
+    <meta name="keywords" content="Aaron Ge, AI researcher, computational medicine, machine learning, genomics, medical student, University of Maryland, FastImpute, TMA-Grid, cancer research, privacy AI, bioinformatics, MCAT 521, NIH, National Cancer Institute">
+    <meta name="author" content="Aaron Ge">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="geo.region" content="US-MD">
+    <meta name="geo.placename" content="Baltimore, Maryland">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aaronge-2020.github.io/Portfolio/">
+    
+    <!-- Open Graph Tags for Social Media -->
+    <meta property="og:title" content="Aaron Ge - AI & Computational Medicine Researcher">
+    <meta property="og:description" content="Medical student and AI researcher specializing in computational medicine, genomics, and privacy-preserving AI. Creator of FastImpute, TMA-Grid, and mSigSDK.">
+    <meta property="og:image" content="https://aaronge-2020.github.io/Portfolio/Portfolio%20Headshot.jpeg">
+    <meta property="og:url" content="https://aaronge-2020.github.io/Portfolio/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aaron Ge Portfolio">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aaron Ge - AI & Computational Medicine Researcher">
+    <meta name="twitter:description" content="Medical student and AI researcher specializing in computational medicine, genomics, and privacy-preserving AI.">
+    <meta name="twitter:image" content="https://aaronge-2020.github.io/Portfolio/Portfolio%20Headshot.jpeg">
+    
+    <!-- Additional SEO Tags -->
+    <meta name="theme-color" content="#0a0a0f">
+    <meta name="msapplication-TileColor" content="#0a0a0f">
+    
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Structured Data - JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Aaron Ge",
+        "jobTitle": "Medical Student and AI Researcher",
+        "description": "AI & Computational Medicine Researcher specializing in privacy-preserving machine learning, genomics, and clinical data analysis",
+        "url": "https://aaronge-2020.github.io/Portfolio/",
+        "image": "https://aaronge-2020.github.io/Portfolio/Portfolio%20Headshot.jpeg",
+        "email": "aaron.ge@som.umaryland.edu",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Baltimore",
+            "addressRegion": "MD",
+            "addressCountry": "US"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Maryland, College Park",
+                "sameAs": "https://www.umd.edu/"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Maryland School of Medicine",
+                "sameAs": "https://www.medschool.umaryland.edu/"
+            },
+            {
+                "@type": "Organization",
+                "name": "National Cancer Institute",
+                "sameAs": "https://www.cancer.gov/"
+            }
+        ],
+        "knowsAbout": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Computational Medicine",
+            "Genomics",
+            "Cancer Research",
+            "Privacy-Preserving AI",
+            "Clinical Data Analysis",
+            "Bioinformatics",
+            "Medical Research"
+        ],
+        "award": [
+            "AIM-Ahead Clinical Care Award",
+            "PRISM Research Merit Award", 
+            "Maryland Senatorial Scholarship",
+            "Cancer Research Training Award",
+            "Presidential Scholarship"
+        ],
+        "worksFor": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Maryland School of Medicine"
+        },
+        "sameAs": [
+            "https://github.com/aaronge-2020",
+            "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C21&q=Aaron+Ge&btnG=",
+            "https://orcid.org/0000-0003-3629-8905",
+            "https://www.linkedin.com/in/aaron-ge-6395681b2/"
+        ]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -49,11 +148,11 @@
         <div class="tech-grid"></div>
         <div class="hero-container">
             <div class="hero-content">
-                <h1 class="hero-title">
-                    <span class="hero-name">Aaron Ge</span>
-                    <span class="hero-subtitle">AI & Computational Medicine Researcher</span>
+                <h1 class="hero-title" itemscope itemtype="https://schema.org/Person">
+                    <span class="hero-name" itemprop="name">Aaron Ge</span>
+                    <span class="hero-subtitle" itemprop="jobTitle">AI & Computational Medicine Researcher</span>
                 </h1>
-                <p class="hero-description">
+                <p class="hero-description" itemprop="description">
                     Medical student and researcher integrating artificial intelligence with clinical medicine 
                     to address healthcare inequities and advance precision medicine.
                 </p>
@@ -82,7 +181,10 @@
             <div class="hero-visual">
                 <div class="hero-profile">
                     <div class="hero-profile-image">
-                        <img src="Portfolio Headshot.jpeg" alt="Aaron Ge - AI & Computational Medicine Researcher">
+                        <img src="Portfolio Headshot.jpeg" 
+                             alt="Aaron Ge - AI & Computational Medicine Researcher, Medical Student at University of Maryland School of Medicine" 
+                             itemprop="image"
+                             loading="eager">
                     </div>
                     <div class="social-links">
                         <a href="https://github.com/aaronge-2020" target="_blank" rel="noopener" aria-label="GitHub Profile">
@@ -104,7 +206,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
+    <section id="about" class="about" itemscope itemtype="https://schema.org/Person">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">About Me</h2>
@@ -164,7 +266,7 @@
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="education">
+    <section id="education" class="education" itemscope itemtype="https://schema.org/EducationalOrganization">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Education</h2>
@@ -578,5 +680,48 @@
     </footer>
 
     <script src="script.js"></script>
+    
+    <!-- Performance and Loading Optimization -->
+    <script>
+        // Preload critical resources
+        const preloadLinks = [
+            'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
+            'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
+        ];
+        
+        preloadLinks.forEach(href => {
+            const link = document.createElement('link');
+            link.rel = 'preload';
+            link.as = 'style';
+            link.href = href;
+            document.head.appendChild(link);
+        });
+        
+        // Lazy load images
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.remove('lazy');
+                        imageObserver.unobserve(img);
+                    }
+                });
+            });
+            
+            const lazyImages = document.querySelectorAll('img[data-src]');
+            lazyImages.forEach(img => imageObserver.observe(img));
+        }
+    </script>
+    
+    <!-- Google Analytics (replace GA_MEASUREMENT_ID with your actual ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
 </body>
 </html> 
